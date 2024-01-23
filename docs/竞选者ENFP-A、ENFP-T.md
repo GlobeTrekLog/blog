@@ -1,6 +1,9 @@
 ---
 layout: default
+title: Your Page Title
+date: 2024-01-19 11:35:10
 ---
+
 
 # 竞选者性格
 

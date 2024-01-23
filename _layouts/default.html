@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-{% seo %}
+    <!-- 修改具体的css配置，在这里：_sass\jekyll-theme-leap-day.scss -->
+
+    {% seo %}
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
@@ -15,6 +18,7 @@
 
     {% include head-custom.html %}
   </head>
+
   <body>
 
       <header>
@@ -60,18 +64,20 @@
   </body>
 </html>
 
-<script src="https://giscus.app/client.js"
-        data-repo="yakoye/enjoylife.github.io"
-        data-repo-id="R_kgDOLH3vBg"
-        data-category="General"
-        data-category-id="DIC_kwDOLH3vBs4CcmnV"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
+<div id="giscus-container">
+  <script src="https://giscus.app/client.js"
+    data-repo="GlobeTrekLog/EnjoyLifeBlog"
+    data-repo-id="R_kgDOLIYFBA"
+    data-category="General"
+    data-category-id="DIC_kwDOLIYFBM4CcnaY"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async>
 </script>
+</div>

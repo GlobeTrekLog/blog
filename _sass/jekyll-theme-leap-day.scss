@@ -397,6 +397,12 @@ nav {
   }
 }
 
+//评论插件的设置
+#giscus-container {
+  max-width: 650px; /* 或您希望的任何宽度 */
+  margin: auto; /* 使其在页面中居中 */
+}
+
 footer {
   width: 180px;
   position: fixed;
@@ -406,6 +412,8 @@ footer {
   text-align: right;
   line-height: 16px;
 }
+
+// 下面是具体的分辨率设置
 
 @media print, screen and (max-width: 1060px) {
   div.wrapper {
