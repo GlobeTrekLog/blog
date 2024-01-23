@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: 16种类型
@@ -11,7 +10,7 @@ title: 16种类型
 
 
 
-![image-20240123230047072](./img/list-16性格总览.assets/image-20240123230047072.png)
+![image-20240123230047072](./img/list-16性格总览.assets/image-20240123230047072.jpg)
 
 
 
