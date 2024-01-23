@@ -1,7 +1,7 @@
-# Enjoylife Blog
+[# Enjoylife Blog](https://globetreklog.github.io/blog/)
 
 
-Click here: [enjoylife-blog](https://yakoye.github.io/enjoylife.github.io/)
+Click here: [enjoylife-blog](https://globetreklog.github.io/blog/)
 
-URL: `https://yakoye.github.io/enjoylife.github.io/`
+URL: `https://github.com/GlobeTrekLog/blog`
 
