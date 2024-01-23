@@ -50,16 +50,26 @@
       <nav>
         <ul></ul>
       </nav>
+
+      <!-- 网页内容部分 -->
       <section>
+        <!-- 使用Liquid的条件语句。如果 page.date 存在，则显示日期； -->
+        {% if page.date %}  <!-- 检查 page 对象中是否有 date 字段 -->
+          <p>Published on: {{ page.date | date: "%Y-%m-%d %H:%M:%S" }}</p>
+        {% endif %}
+
+
         {{ content }}
 
       </section>
+
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
       </footer>
+
     </div>
   </body>
 </html>
