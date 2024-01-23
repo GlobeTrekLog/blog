@@ -30,4 +30,4 @@ Medical Manager Corporation在1997年上市，1999年就有超过10亿美元的�
 
 ![image-20230627142115367](img/image-20230627142115367.png)
 
-[back](./)
+[back](../booklist.md)
