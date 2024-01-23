@@ -48,4 +48,4 @@ title: booklist
 <img src="https://www.google.com/doodles/kamma-rahbeks-241st-birthday" style="zoom:50%" />
 ```
 
-[back](./)
+[back](../)

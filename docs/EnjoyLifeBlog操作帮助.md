@@ -20,6 +20,7 @@ date: 2024-01-23 17:44:26
 ---
 layout: default
 title: 竞选者性格
+description: 
 date: 2024-01-19 11:35:10
 ---
 ```
@@ -30,5 +31,10 @@ date: 2024-01-19 11:35:10
 
 ```
 [back](./)
+```
+
+bundle本地调试命令
+```
+bundle exec jekyll serve
 ```
 

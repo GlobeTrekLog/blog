@@ -9,7 +9,7 @@ date: 2024-01-19 11:35:10
 
 ENFP-A / ENFP-T
 
-![image-20240119113510182](./竞选者ENFP-A、ENFP-T.assets/image-20240119113510182-1705646972264-39.png)
+![image-20240119113510182](./img/竞选者ENFP-A、ENFP-T.assets/image-20240119113510182-1705646972264-39.png)
 
 
 
@@ -21,7 +21,7 @@ ENFP-A / ENFP-T
 
 竞选者享受真正的自由精神--外向、开放和开明。他们以活泼，乐观的生活方式，在任何人群中都能脱颖而出。但是，即使他们的生命中充斥着灯红酒绿，但竞选者并不只是在乎度过美好的时光。这些人格类型有着更深层次的追求--渴望与他人建立有意义的情感联系。
 
-![image-20240119113347401](./竞选者ENFP-A、ENFP-T.assets/image-20240119113347401-1705646972264-40.png)
+![image-20240119113347401](./img/竞选者ENFP-A、ENFP-T.assets/image-20240119113347401-1705646972264-40.png)
 
 ## 日常生活的魔力
 
@@ -89,7 +89,7 @@ ENFPs will spend a lot of time exploring different relationships, feelings, and 
 
 ## ENFP Strengths
 
-![ENFP (Campaigner) strengths](./竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_strengths.svg)
+![ENFP (Campaigner) strengths](./img/竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_strengths.svg)
 
 - **Curious** – People with the ENFP personality type (Campaigners) can find beauty and fascination in nearly anything. Imaginative and open-minded, ENFP personalities aren’t afraid to venture beyond their comfort zone in search of new ideas, experiences, and adventures. Moreover, their curiosity extends beyond simply seeking novelty. They also have a deep desire to understand how things work and why they are the way they are.
 - **Perceptive** – To people with this personality type, no one is unimportant – which might explain how they can pick up on even the subtlest shifts in another person’s mood or expression. Because they’re so sensitive to other people’s feelings and needs, ENFPs can make full use of their caring, considerate nature.
@@ -100,7 +100,7 @@ ENFPs will spend a lot of time exploring different relationships, feelings, and 
 
 ## ENFP Weaknesses
 
-![ENFP (Campaigner) weaknesses](./竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_weaknesses.svg)
+![ENFP (Campaigner) weaknesses](./img/竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_weaknesses.svg)
 
 - **People-Pleasing** – Most people with the ENFP personality type are uncomfortable with the prospect of being disliked. To maintain the peace, they may compromise on things that matter to them or allow others to treat them poorly. And when they fail to win someone over, they might lose sleep trying to figure out what to do about it.
 - **Unfocused** – The thrill of a new project – especially one that involves collaborating with other people – can bring out the best in these personalities. But ENFPs are known for having ever-evolving interests, meaning that they may find it challenging to maintain discipline and focus over the long term.
@@ -117,7 +117,7 @@ For ENFP personalities, romantic relationships are beautiful and exhilarating �
 
 Many ENFPs harbor a deep longing to share their life with another person. As a result, these personalities may feel a bit empty or uninspired when they’re single. While their dedication to relationships is admirable, ENFPs may need to guard against investing too much of their sense of self in their relationship status.
 
-![ENFP (Campaigner) romantic relationships](./竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_romantic_relationships.svg)
+![ENFP (Campaigner) romantic relationships](./img/竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_romantic_relationships.svg)
 
 ## Fanning the Flames
 
@@ -161,7 +161,7 @@ As friends, ENFPs are uplifting and supportive. They’re nearly always up for a
 
 Generous and authentic, ENFPs have much to offer in the realm of friendship. At times, however, they may struggle with a suspicion that they care more about their friends than their friends care about them – a suspicion that can leave these sociable, warmhearted personalities feeling more than a little lonely.
 
-![ENFP (Campaigner) friends](./竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_friendships.svg)
+![ENFP (Campaigner) friends](./img/竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_friendships.svg)
 
 For people with the ENFP personality type, friendship is an opportunity to see the universe through another person’s eyes.
 
@@ -195,7 +195,7 @@ For people with the ENFP personality type (Campaigners), one of the great joys o
 
 ENFP parents also work hard to ensure that their children feel accepted and worthy just as they are. Rather than pressuring their children to look or act a certain way, these personalities encourage their children’s creativity and self-expression. Drawing on their own ingenuity and creativity, ENFP parents guide their children to discover and embrace their unique passions and interests.
 
-![ENFP (Campaigner) parents](./竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_parenthood.svg)
+![ENFP (Campaigner) parents](./img/竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_parenthood.svg)
 
 ENFPs encourage their children’s curiosity, sweeping away dolls and dinosaurs when interests shift to the ocean, then sweeping away the fish when tastes change again to the stars.
 
@@ -225,7 +225,7 @@ Fortunately, ENFPs’ compassion can help them understand and honor their childr
 
 It’s no surprise, then, that choosing a career path can leave these imaginative personalities feeling overwhelmed or scattered. ENFPs want to add value to the world, build community, facilitate learning, and express their creativity through their work. Consequently, they may feel pulled in multiple directions, uncertain of how to honor both their passions and their values while still keeping their options open and pulling in a steady paycheck.
 
-![ENFP (Campaigner) careers](./竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_career_path.svg)
+![ENFP (Campaigner) careers](./img/竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_career_path.svg)
 
 The good news? ENFPs can use their boundless curiosity and imagination to propel themselves forward in nearly any profession.
 
@@ -257,7 +257,7 @@ Fortunately, ENFPs’ irrepressible creativity is an asset in most work environm
 
 Marked by inherent charisma and original imaginations, people with the ENFP personality type (Campaigners) bring a unique energy into their professional environment. They are passionate about brainstorming with their teams and tend to excel in positions of leadership due to their ability to infuse the workplace with positivity and encouragement. With their warmth and open-mindedness, ENFPs often find ways to make their workplaces more creative, inspiring, and caring – no matter where they are on the career ladder.
 
-![ENFP (Campaigner) workplace habits](./竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_workplace_habits.svg)
+![ENFP (Campaigner) workplace habits](./img/竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_workplace_habits.svg)
 
 Whether they’re a brand-new hire or a CEO, ENFP personalities feel happiest when they have the time and freedom to explore new ideas. And if they can explore those ideas alongside other people who share their excitement – well, that’s even better. Some personality types are sticklers for workplace hierarchies, but ENFPs see all of their colleagues as their equals. Sure, they may want to impress their boss, but chances are they want to make a good impression on everyone else as well.
 
@@ -297,7 +297,7 @@ Fortunately, ENFPs have the sensitivity and insight to recognize when their team
 
 Few personality types are as creative and charismatic as ENFPs (Campaigners). Known for their idealism and enthusiasm, ENFP personalities excel at dealing with unexpected challenges and brightening the lives of those around them.
 
-![ENFP (Campaigner) personality](./竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_conclusion.svg)
+![ENFP (Campaigner) personality](./img/竞选者ENFP-A、ENFP-T.assets/diplomats_Campaigner_ENFP_conclusion.svg)
 
 ENFPs’ curiosity, imagination, and energy are invaluable in many areas, including their own personal growth.
 
@@ -328,4 +328,4 @@ https://www.16personalities.com/ch/enfp-%E4%BA%BA%E6%A0%BC
 https://www.16personalities.com/enfp-personality
 
 
-[back](../)
+[back](../img/)
