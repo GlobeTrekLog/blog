@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Your Page Title
+title: 竞选者性格 ENFP-A / ENFP-T
 date: 2024-01-19 11:35:10
 ---
 
