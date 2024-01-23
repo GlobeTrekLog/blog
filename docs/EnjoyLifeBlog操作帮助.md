@@ -38,3 +38,5 @@ bundle本地调试命令
 bundle exec jekyll serve
 ```
 
+
+[github评论 giscus配置页面](https://giscus.app/zh-CN)

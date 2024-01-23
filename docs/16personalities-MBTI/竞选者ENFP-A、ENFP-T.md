@@ -323,9 +323,9 @@ If you’re ready to create your own path through life, move on to the next sect
 
 链接：
 
-https://www.16personalities.com/ch/enfp-%E4%BA%BA%E6%A0%BC
+[enfp-personality 中文](https://www.16personalities.com/ch/enfp-%E4%BA%BA%E6%A0%BC)
 
-https://www.16personalities.com/enfp-personality
+[enfp-personality English](https://www.16personalities.com/enfp-personality)
 
 
-[back](../img/)
+[back](./list-16性格总览.md)

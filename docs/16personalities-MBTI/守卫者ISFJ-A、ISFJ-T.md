@@ -295,6 +295,9 @@ So here’s our question for you, ISFJ: Are you ready to take full advantage of 
 
 链接：
 
-https://www.16personalities.com/ch/isfj-%E4%BA%BA%E6%A0%BC
+[isfj-personality 中文](https://www.16personalities.com/ch/isfj-%E4%BA%BA%E6%A0%BC)
 
-https://www.16personalities.com/isfj-personality
+[isfj-personality English](https://www.16personalities.com/isfj-personality)
+
+
+[back](./list-16性格总览.md)

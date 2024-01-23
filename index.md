@@ -6,10 +6,11 @@ title: 首页
 # Homepage
 
 **博客目录：**
+ - [书单](/docs/booklist/booklist.md)
  - [EnjoyLifeBlog操作帮助](/docs/EnjoyLifeBlog操作帮助.md)
  - [Link to another page](/docs/another-page.md)
- - [竞选者ENFP-A、ENFP-T](/docs/竞选者ENFP-A、ENFP-T.md)
- - [书单](/docs/booklist/booklist.md)
+ - [16性格总览](/docs/16personalities-MBTI/list-16性格总览.md)
+
 
 
 
