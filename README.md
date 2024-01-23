@@ -1,7 +1,7 @@
-[# Enjoylife Blog](https://globetreklog.github.io/blog/)
+# [Enjoy life Blog](https://globetreklog.github.io/EnjoyLifeBlog/)
 
 
-Click here: [enjoylife-blog](https://globetreklog.github.io/blog/)
+Click here to Blog: [Enjoy Life Blog](https://globetreklog.github.io/EnjoyLifeBlog/)
 
-URL: `https://github.com/GlobeTrekLog/blog`
+code URL: `https://github.com/GlobeTrekLog/EnjoyLifeBlog`
 
