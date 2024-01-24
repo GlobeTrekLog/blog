@@ -153,17 +153,23 @@
       var breadcrumb = document.getElementById('breadcrumb');
 
       var html = '当前位置: <a href="' + homeLink + '">Home</a>';
-      var link = homeLink;
+      var link = homeLink + 'docs/';
 
       for (var i = 1; i < path.length; i++) {
-          // 构建每个路径部分的链接
-          link += (i === 1 ? '' : '/') + path[i] + '.html';
+          // 构建链接
+          if(i > 1) {
+              link += '/';
+          }
+          link += path[i] + '.html';
+
+          // 添加到面包屑导航
           html += ' > <a href="' + link + '">' + path[i] + '</a>';
       }
 
       breadcrumb.innerHTML = html;
   });
 </script>
+
 
 
 
