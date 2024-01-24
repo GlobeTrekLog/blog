@@ -153,22 +153,20 @@
       var breadcrumb = document.getElementById('breadcrumb');
 
       var html = '当前位置: <a href="' + homeLink + '">Home</a>';
-      var link = homeLink + 'docs/';
+      var link = homeLink;
 
       for (var i = 1; i < path.length; i++) {
-          // 构建链接
-          if(i > 1) {
-              link += '/';
-          }
-          link += path[i] + '.html';
+          link += (i === 1 ? '' : '/') + path[i] + '.html'; // 修正链接构建方式
 
-          // 添加到面包屑导航
-          html += ' > <a href="' + link + '">' + path[i] + '</a>';
+          // 对链接文本进行解码
+          var linkText = decodeURIComponent(path[i]);
+          html += ' > <a href="' + link + '">' + linkText + '</a>';
       }
 
       breadcrumb.innerHTML = html;
   });
 </script>
+
 
 
 
