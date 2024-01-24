@@ -7,5 +7,7 @@ description: Enjoy life and record growth
 show_downloads: true
 google_analytics: true
 project_title: "EnjoyLifeBlog"
+repository_url: "https://github.com/GlobeTrekLog/EnjoyLifeBlog"
 home_url: "https://globetreklog.github.io/EnjoyLifeBlog/"
+
 #show_downloads: true

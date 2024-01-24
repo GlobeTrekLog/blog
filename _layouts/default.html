@@ -26,7 +26,7 @@
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
-      <!-- 隐藏元素，获取home-url -->
+      <!-- 隐藏元素，获取home-url， 这个home_url定义在_config.yml中 -->
       <span id="home-url" style="display: none;">{{ site.github.home_url }}</span>
 
       <div id="banner">
@@ -127,22 +127,19 @@
 <!-- 用于显示当前位置，也就是面包屑， 并显示完整的路径，但最后的文件不显示 -->
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+      // 这个home-url从上面隐藏的标签读取
+      var homeLink = document.getElementById('home-url').textContent;
       var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
       var breadcrumb = document.getElementById('breadcrumb');
 
       var html = '当前位置: ';
 
-      // 设置Home链接到正确的URL
-      var homeLink = "/EnjoyLifeBlog/";
-
-      // 判断是否为根目录（Home页面）
       if(path.length === 0 || (path.length === 1 && path[0] === 'EnjoyLifeBlog')) {
           html += '<a href="' + homeLink + '">Home</a>';
       } else {
           html += '<a href="' + homeLink + '">Home</a> > ';
 
           var link = homeLink;
-          // 遍历路径的每个部分，但排除最后一个元素（文件名）
           for (var i = 1; i < path.length - 1; i++) {
               link += path[i] + '/';
               html += '<a href="' + link + '">' + path[i] + '</a>';
@@ -155,6 +152,7 @@
       breadcrumb.innerHTML = html;
   });
 </script>
+
 
 
 
