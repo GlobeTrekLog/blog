@@ -133,23 +133,17 @@
       var breadcrumb = document.getElementById('breadcrumb');
 
       var html = '当前位置: <a href="' + homeLink + '">Home</a>';
+      var link = homeLink;
 
-      if(path.length > 1 || (path.length === 1 && path[0] !== '')) {
-          html += ' > ';
-
-          var link = homeLink;
-          for (var i = 0; i < path.length - 1; i++) {
-              link += path[i] + '/';
-              html += '<a href="' + link + '">' + path[i] + '</a>';
-              if (i < path.length - 2) {
-                  html += ' > ';
-              }
-          }
+      for (var i = 0; i < path.length; i++) {
+          link += path[i] + '/';
+          html += ' > <a href="' + link + '">' + path[i] + '</a>';
       }
 
       breadcrumb.innerHTML = html;
   });
 </script>
+
 
 
 
