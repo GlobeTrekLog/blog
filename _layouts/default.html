@@ -148,23 +148,30 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-      var homeLink = '/EnjoyLifeBlog/'; // 主页链接
+      var homeLink = document.getElementById('home-url').textContent;
       var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
       var breadcrumb = document.getElementById('breadcrumb');
 
       var html = '当前位置: <a href="' + homeLink + '">Home</a>';
 
       var link = homeLink;
-      for (var i = 1; i < path.length; i++) {
-          link += path[i] + '.html'; // 为每个路径部分添加 '.html'
+      for (var i = 1; i < path.length; i++) { // 从索引1开始，忽略第一个"EnjoyLifeBlog"
+          link += path[i];
 
-          html += ' > <a href="' + link + '">' + path[i] + '</a>';
-          link = link.substring(0, link.lastIndexOf('/') + 1); // 重置link到当前路径部分的父目录
+          // 如果是最后一个路径元素并且包含'.html'，则在面包屑中不显示'.html'
+          if (i === path.length - 1 && path[i].includes('.')) {
+              html += ' > <a href="' + link + '">' + path[i].replace('.html', '') + '</a>';
+              break;
+          } else {
+              link += '/';
+              html += ' > <a href="' + link + '.html">' + path[i] + '</a>';
+          }
       }
 
       breadcrumb.innerHTML = html;
   });
 </script>
+
 
 
 
