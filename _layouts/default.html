@@ -27,14 +27,14 @@
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
       <!-- 隐藏元素，获取home-url， 这个home_url定义在_config.yml中 -->
-      <span id="home-url" style="display: none;">{{ site.github.home_url }}</span>
+      <span id="home-url" style="display: none;">{{ site.home_url }}</span>
 
       <div id="banner">
         <!-- <span id="logo"></span> -->
         <a href="{{ site.github.repository_url }}" id="logo" > </a>
 
         <!-- 添加 Home 按钮 -->
-        <a href="{{ site.github.home_url }}" class="button home"><strong>Home</strong></a>
+        <a href="{{ site.home_url }}" class="button home"><strong>Home</strong></a>
 
         <!-- <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a> -->
         
@@ -132,15 +132,13 @@
       var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
       var breadcrumb = document.getElementById('breadcrumb');
 
-      var html = '当前位置: ';
+      var html = '当前位置: <a href="' + homeLink + '">Home</a>';
 
-      if(path.length === 0 || (path.length === 1 && path[0] === 'EnjoyLifeBlog')) {
-          html += '<a href="' + homeLink + '">Home</a>';
-      } else {
-          html += '<a href="' + homeLink + '">Home</a> > ';
+      if(path.length > 1 || (path.length === 1 && path[0] !== '')) {
+          html += ' > ';
 
           var link = homeLink;
-          for (var i = 1; i < path.length - 1; i++) {
+          for (var i = 0; i < path.length - 1; i++) {
               link += path[i] + '/';
               html += '<a href="' + link + '">' + path[i] + '</a>';
               if (i < path.length - 2) {
@@ -152,6 +150,7 @@
       breadcrumb.innerHTML = html;
   });
 </script>
+
 
 
 

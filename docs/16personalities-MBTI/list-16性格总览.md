@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 16种类型
+title: 16种性格类型
 ---
 
 **目录：**
