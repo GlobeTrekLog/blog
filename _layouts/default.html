@@ -155,22 +155,28 @@
       var html = '当前位置: <a href="' + homeLink + '">Home</a>';
 
       var link = homeLink;
-      for (var i = 1; i < path.length; i++) { // 从索引1开始，忽略第一个"EnjoyLifeBlog"
-          link += path[i];
-
-          // 如果是最后一个路径元素并且包含'.html'，则在面包屑中不显示'.html'
-          if (i === path.length - 1 && path[i].includes('.')) {
-              html += ' > <a href="' + link + '">' + path[i].replace('.html', '') + '</a>';
-              break;
+      for (var i = 1; i < path.length; i++) {
+          // 检查是否为最后一个元素
+          if (i === path.length - 1) {
+              // 如果最后一个元素是文件（包含'.'），则添加'.html'后缀
+              if (path[i].includes('.')) {
+                  link += path[i];
+              } else {
+                  link += path[i] + '.html';
+              }
+              html += ' > <a href="' + link + '">' + path[i] + '</a>';
           } else {
-              link += '/';
-              html += ' > <a href="' + link + '.html">' + path[i] + '</a>';
+              // 对于非最后一个元素，假定它指向'.html'页面
+              link += path[i] + '.html';
+              html += ' > <a href="' + link + '">' + path[i] + '</a>';
+              link = link.substring(0, link.lastIndexOf('.html') + 5) + '/';
           }
       }
 
       breadcrumb.innerHTML = html;
   });
 </script>
+
 
 
 
