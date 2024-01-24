@@ -127,15 +127,17 @@
 <!-- 用于显示当前位置，也就是面包屑， 并显示完整的路径，但最后的文件不显示 -->
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-      // 这个home-url从上面隐藏的标签读取
       var homeLink = document.getElementById('home-url').textContent;
       var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
       var breadcrumb = document.getElementById('breadcrumb');
 
       var html = '当前位置: <a href="' + homeLink + '">Home</a>';
-      var link = homeLink;
 
-      for (var i = 0; i < path.length; i++) {
+      var link = homeLink;
+      for (var i = 1; i < path.length; i++) { // 从索引1开始，忽略第一个"EnjoyLifeBlog"
+          // 检查是否为最后一个元素（文件名），并忽略它
+          if (i === path.length - 1 && path[i].includes('.')) break;
+
           link += path[i] + '/';
           html += ' > <a href="' + link + '">' + path[i] + '</a>';
       }
@@ -143,6 +145,7 @@
       breadcrumb.innerHTML = html;
   });
 </script>
+
 
 
 
