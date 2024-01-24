@@ -29,3 +29,5 @@ https://www.16personalities.com/personality-types
 中文介绍：
 https://www.16personalities.com/ch/%E7%B1%BB%E5%9E%8B%E6%8F%8F%E8%BF%B0
 
+
+[back](../)
