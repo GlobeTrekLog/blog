@@ -53,6 +53,8 @@
 
       <!-- 网页内容部分 -->
       <section>
+
+        <div id="breadcrumb">当前位置:</div>
         <!-- 使用Liquid的条件语句。如果 page.date 存在，则显示日期； -->
         {% if page.date %}  <!-- 检查 page 对象中是否有 date 字段 -->
           <p><small>Published on: {{ page.date | date: "%Y-%m-%d %H:%M:%S" }}</small></p>
@@ -72,6 +74,25 @@
   </body>
 </html>
 
+<!-- 用于显示当前位置，也就是面包屑 -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
+      var breadcrumb = document.getElementById('breadcrumb');
+
+      var html = '当前位置: <a href="/">Home</a>'; // 或使用英文 "Current Location: <a href="/">Home</a>"
+      var link = '';
+
+      for (var i = 0; i < path.length; i++) {
+          link += '/' + path[i];
+          html += ' > <a href="' + link + '">' + path[i] + '</a>';
+      }
+
+      breadcrumb.innerHTML = html;
+  });
+</script>
+
+
 <div id="giscus-container">
   <script src="https://giscus.app/client.js"
     data-repo="GlobeTrekLog/EnjoyLifeBlog"
@@ -89,3 +110,7 @@
     async>
 </script>
 </div>
+
+
+
+
