@@ -125,7 +125,8 @@
 </script> -->
 
 <!-- 用于显示当前位置，也就是面包屑， 并显示完整的路径，但最后的文件不显示 -->
-<!-- <script>
+<!-- 
+<script>
   document.addEventListener('DOMContentLoaded', function() {
       var homeLink = document.getElementById('home-url').textContent;
       var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
@@ -139,7 +140,7 @@
           if (i === path.length - 1 && path[i].includes('.')) break;
 
           link += path[i] + '/';
-          html += ' > <a href="' + link + '">' + path[i] + '</a>';
+          html += ' > <a href="' + link + '">' + decodeURIComponent(path[i]) + '</a>';
       }
 
       breadcrumb.innerHTML = html;
@@ -156,11 +157,21 @@
       var link = homeLink;
 
       for (var i = 1; i < path.length; i++) {
-          link += (i === 1 ? '' : '/') + path[i] + '.html'; // 修正链接构建方式
+          // 检查是否需要添加斜杠
+          if (i !== 1) {
+              link += '/';
+          }
 
-          // 对链接文本进行解码
-          var linkText = decodeURIComponent(path[i]);
-          html += ' > <a href="' + link + '">' + linkText + '</a>';
+          // 添加当前路径部分
+          link += path[i];
+
+          // 对于最后一个元素，如果不包含文件扩展名，则添加 '.html'
+          if (i === path.length - 1 && !path[i].includes('.')) {
+              link += '.html';
+          }
+
+          // 构建面包屑导航
+          html += ' > <a href="' + link + '">' + decodeURIComponent(path[i]) + '</a>';
       }
 
       breadcrumb.innerHTML = html;
