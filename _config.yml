@@ -1,10 +1,11 @@
 
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
-
+theme: jekyll-theme-leap-day
 title: Enjoy Life Blog
 description: Enjoy life and record growth
 show_downloads: true
-google_analytics:
-theme: jekyll-theme-leap-day
+google_analytics: true
+project_title: "EnjoyLifeBlog"
+home_url: "https://globetreklog.github.io/EnjoyLifeBlog/"
 #show_downloads: true
