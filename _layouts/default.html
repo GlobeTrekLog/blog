@@ -129,16 +129,19 @@
 
       var html = '当前位置: ';
 
+      // 设置Home链接到正确的URL
+      var homeLink = "/EnjoyLifeBlog/";
+
       // 判断是否为根目录（Home页面）
       if(path.length === 0 || (path.length === 1 && path[0] === 'EnjoyLifeBlog')) {
-          html += '<a href="/">Home</a>';
+          html += '<a href="' + homeLink + '">Home</a>';
       } else {
-          html += '<a href="/">Home</a> > ';
+          html += '<a href="' + homeLink + '">Home</a> > ';
 
-          var link = '/EnjoyLifeBlog';
+          var link = homeLink;
           // 遍历路径的每个部分，但排除最后一个元素（文件名）
           for (var i = 1; i < path.length - 1; i++) {
-              link += '/' + path[i];
+              link += path[i] + '/';
               html += '<a href="' + link + '">' + path[i] + '</a>';
               if (i < path.length - 2) {
                   html += ' > ';
@@ -149,6 +152,7 @@
       breadcrumb.innerHTML = html;
   });
 </script>
+
 
 
 <div id="giscus-container">
