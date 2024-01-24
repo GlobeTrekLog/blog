@@ -125,7 +125,7 @@
 </script> -->
 
 <!-- 用于显示当前位置，也就是面包屑， 并显示完整的路径，但最后的文件不显示 -->
-<script>
+<!-- <script>
   document.addEventListener('DOMContentLoaded', function() {
       var homeLink = document.getElementById('home-url').textContent;
       var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
@@ -144,8 +144,27 @@
 
       breadcrumb.innerHTML = html;
   });
-</script>
+</script> -->
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      var homeLink = '/EnjoyLifeBlog/'; // 主页链接
+      var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
+      var breadcrumb = document.getElementById('breadcrumb');
+
+      var html = '当前位置: <a href="' + homeLink + '">Home</a>';
+
+      var link = homeLink;
+      for (var i = 1; i < path.length; i++) {
+          link += path[i] + '.html'; // 为每个路径部分添加 '.html'
+
+          html += ' > <a href="' + link + '">' + path[i] + '</a>';
+          link = link.substring(0, link.lastIndexOf('/') + 1); // 重置link到当前路径部分的父目录
+      }
+
+      breadcrumb.innerHTML = html;
+  });
+</script>
 
 
 
