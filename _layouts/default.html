@@ -75,7 +75,7 @@
 </html>
 
 <!-- 用于显示当前位置，也就是面包屑 -->
-<script>
+<!-- <script>
   document.addEventListener('DOMContentLoaded', function() {
       var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
       var breadcrumb = document.getElementById('breadcrumb');
@@ -90,7 +90,37 @@
 
       breadcrumb.innerHTML = html;
   });
+</script> -->
+
+<!-- 用于显示当前位置，也就是面包屑 -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      var path = window.location.pathname.split('/').filter(function(el) { return !!el; });
+      var breadcrumb = document.getElementById('breadcrumb');
+
+      var html = '当前位置: ';
+
+      // 判断是否为根目录（Home页面）
+      if(path.length === 0 || (path.length === 1 && path[0] === 'EnjoyLifeBlog')) {
+          html += '<a href="/">Home</a>';
+      } 
+      else {
+          html += '<a href="/">Home</a> > ';
+
+          var link = '/EnjoyLifeBlog';
+          for (var i = 1; i < path.length; i++) {
+              link += '/' + path[i];
+              html += '<a href="' + link + '">' + path[i] + '</a>';
+              if (i < path.length - 1) {
+                  html += ' > ';
+              }
+          }
+      }
+
+      breadcrumb.innerHTML = html;
+  });
 </script>
+
 
 
 <div id="giscus-container">

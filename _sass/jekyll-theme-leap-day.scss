@@ -17,6 +17,24 @@ body {
   background: url(../images/body-background.png) #eae6d1;
 }
 
+#breadcrumb {
+  text-align: left; /* 左对齐 */
+  padding: 10px; /* 内边距 */
+  font-size: 16px; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+  /* 您可以根据需要添加其他样式 */
+}
+
+#breadcrumb a {
+  color: #007bff; /* 链接颜色 */
+  text-decoration: none; /* 移除下划线 */
+}
+
+#breadcrumb a:hover {
+  text-decoration: underline; /* 鼠标悬浮时的下划线 */
+}
+
+
 h1,
 h2,
 h3,
@@ -270,6 +288,7 @@ header {
     font-size: 14px;
     background-color: #ffe788;
   }
+
   .downloads {
     float: right;
     // margin: 0 45px 0 0;
@@ -325,7 +344,8 @@ section {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09),
     inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5),
     inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
-  text-align: justify; /* 文本两端对齐 */
+  text-align: justify;
+  /* 文本两端对齐 */
 }
 
 small {
@@ -339,15 +359,20 @@ nav {
   left: 50%;
   margin-left: -580px;
   text-align: left;
-  max-height: 600px; /* 设置最大高度 */
-  overflow-y: auto; /* 垂直滚动 */
+  max-height: 600px;
+  /* 设置最大高度 */
+  overflow-y: auto;
+  /* 垂直滚动 */
 
   /* 隐藏滚动条的样式 */
-  scrollbar-width: none; /* 针对Firefox */
-  -ms-overflow-style: none; /* 针对IE和Edge */
+  scrollbar-width: none;
+  /* 针对Firefox */
+  -ms-overflow-style: none;
+  /* 针对IE和Edge */
 
   &::-webkit-scrollbar {
-    display: none; /* 针对Chrome, Safari和Opera */
+    display: none;
+    /* 针对Chrome, Safari和Opera */
   }
 
   ul {
@@ -371,12 +396,11 @@ nav {
           color: #333;
         }
 
-        + .tag-h2 {
-        }
+        +.tag-h2 {}
       }
 
       &.tag-h2 {
-        + .tag-h1 {
+        +.tag-h1 {
           margin-top: 10px;
         }
       }
@@ -399,8 +423,10 @@ nav {
 
 //评论插件的设置
 #giscus-container {
-  max-width: 650px; /* 或您希望的任何宽度 */
-  margin: auto; /* 使其在页面中居中 */
+  max-width: 650px;
+  /* 或您希望的任何宽度 */
+  margin: auto;
+  /* 使其在页面中居中 */
 }
 
 footer {
@@ -415,7 +441,8 @@ footer {
 
 // 下面是具体的分辨率设置
 
-@media print, screen and (max-width: 1060px) {
+@media print,
+screen and (max-width: 1060px) {
   div.wrapper {
     width: auto;
     margin: 0;
@@ -447,8 +474,7 @@ footer {
       display: none;
     }
 
-    .fork {
-    }
+    .fork {}
 
     #logo {
       margin-right: 15px;
@@ -474,7 +500,8 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 720px) {
+@media print,
+screen and (max-width: 720px) {
   body {
     word-wrap: break-word;
   }
@@ -507,11 +534,9 @@ footer {
     //   position:fixed;
     //   left:20px;
     //   }
-    .fork {
-    }
+    .fork {}
 
-    .home {
-    }
+    .home {}
 
     .downloads {
       // margin-right: 60px;
@@ -533,7 +558,8 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print,
+screen and (max-width: 480px) {
   body {
     word-wrap: break-word;
   }
@@ -560,11 +586,9 @@ footer {
     top: 58px;
     width: 100%;
 
-    .fork {
-    }
+    .fork {}
 
-    .home {
-    }
+    .home {}
 
     .downloads {
       display: none;
@@ -623,7 +647,8 @@ footer {
   }
 }
 
-@media print, screen and (max-height: 680px) {
+@media print,
+screen and (max-height: 680px) {
   footer {
     text-align: center;
     margin: 20px auto;
@@ -634,7 +659,8 @@ footer {
   }
 }
 
-@media print, screen and (max-height: 480px) {
+@media print,
+screen and (max-height: 480px) {
   nav {
     // display: none;
   }
