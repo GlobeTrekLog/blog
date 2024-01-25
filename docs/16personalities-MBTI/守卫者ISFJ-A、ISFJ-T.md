@@ -300,4 +300,4 @@ So here’s our question for you, ISFJ: Are you ready to take full advantage of 
 [isfj-personality English](https://www.16personalities.com/isfj-personality)
 
 
-[back](./list-16性格总览.md)
+[back](./index_16personalities-MBTI.md)

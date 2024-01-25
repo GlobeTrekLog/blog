@@ -328,4 +328,4 @@ If you’re ready to create your own path through life, move on to the next sect
 [enfp-personality English](https://www.16personalities.com/enfp-personality)
 
 
-[back](./list-16性格总览.md)
+[back](./index_16personalities-MBTI.md)

@@ -10,7 +10,7 @@ title: 16种性格类型
 
 
 
-![image-20240123230047072](./img/16personalities-MBTI.assets/image-20240123230047072.jpg)
+![image-20240123230047072](./img/index_16personalities-MBTI.assets/image-20240123230047072.jpg)
 
 
 
