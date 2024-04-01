@@ -7,7 +7,7 @@ title: Enjoy Life Blog
 
 **博客目录：**
  - [书单](/docs/booklist/index_booklist.md)
- - [常用Tools](/docs/tools/index_tools.md)
+ - [常用工具Tools](/docs/tools/index_tools.md)
  - [原则principles](/docs/principles/index_principles.md)
  - [烹饪方法](/docs/cookbook/index_list-cookbook.md)
  - [EnjoyLifeBlog操作帮助](/docs/EnjoyLifeBlog操作帮助.md)
