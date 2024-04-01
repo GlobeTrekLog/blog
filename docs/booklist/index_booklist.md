@@ -18,7 +18,7 @@ title: booklist
 |             《老子今注今译》 陈鼓应 注译              |           《庄子今注今译》(上下) 陈鼓应 注译           |              《周易今注今译》陈鼓应 注译              |
 |                                                              |                                                              |                                                              |
 | <img src="./img/71hvjX7BamL._AC_UF1000,1000_QL80_.jpg" alt="图片" style="height: 200px; width: auto;"> | <img src="./img/41aFxxnusgL.jpg" alt="图片" style="height: 200px; width: auto;"> | <img src="./img/91558RDi0ML._AC_UF1000,1000_QL80_.jpg" alt="图片" style="height: 200px; width: auto;"> |
-|                      《原则》 瑞·达利欧                      |           《原则：应对变化中的世界秩序》 瑞·达利欧           |               《债务危机》瑞·达利欧(Ray Dalio)               |
+|                      [《原则》 瑞·达利欧](./notes/原则1-2_瑞·达利欧.md)                      |           [《原则：应对变化中的世界秩序》 瑞·达利欧](./notes/原则1-2_瑞·达利欧.md)           |               《债务危机》瑞·达利欧(Ray Dalio)               |
 |                                                              |                                                              |                                                              |
 | <img src="./img/141b0e88-68d3-4ef1-8208-fde60e232a49.jpg" alt="图片" style="height: 200px; width: auto;"> | <img src="./img/s33710398.jpg" alt="图片" style="height: 200px; width: auto;"> | <img src="./img/image-20230629160759094.png" alt="图片" style="height: 200px; width: auto;"> |
 |      [《自我突围》 施一公](./notes/自我突围_施一公.md)       | [《平面国》 埃德温·A·艾勃特](./notes/平面国_埃德温·A·艾勃特.md) | [《额尔古纳河右岸》 迟子建](./notes/额尔古纳河右岸_迟子建.md) |
